@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #a671db;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.mensagem{
+    text-align: center;
+}
+
+#botao{
+
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #667eea;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+
+#botao:hover{
+    background-color: #6d4e8b;
+    cursor: pointer;
+}
