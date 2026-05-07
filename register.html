@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/register.css">
     <title>Registrar</title>
 </head>
+
 <body>
 
     <div class="container">
@@ -14,23 +16,27 @@
 
             <div class="input-group">
                 <Label for="emailRegister">Digite seu Email!
-                    <input type="email" name="emailRegister" id="emailRegister" placeholder="Digite seu email!" >
+                    <input type="email" name="emailRegister" id="emailRegister" placeholder="Digite seu email!">
                 </Label>
             </div>
-            
+
             <div class="input-group">
                 <Label for="passwordRegister">Digite sua Senha!
-                    <input type="password" name="passwordRegister" id="passwordRegister" placeholder="Digite sua senha!" >
+                    <input type="password" name="passwordRegister" id="passwordRegister"
+                        placeholder="Digite sua senha!">
                 </Label>
             </div>
 
-            <p id="mensagemDeErro" style="color: red; margin-bottom: 5px;"></p>
+            <p id="mensagemDeSucesso" style="color: green;"></p>
+            <br>
+            <p id="mensagemDeErro" style="color: red; margin-bottom: 5px; text-align: center;"></p>
             <button type="submit">Enviar!</button>
+ 
 
-            
         </form>
     </div>
-    
+
     <script src="/js/register.js"></script>
 </body>
+
 </html>
