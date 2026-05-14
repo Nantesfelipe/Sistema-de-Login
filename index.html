@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +11,35 @@
 
 <body>
     <main>
-       
-        <div class="container">
-                <form class="login-form">
-            <h1>Realize seu Login!</h1>
 
-            <div class="input-group">
-                <label for="email">Email</label>
-                <input id="email" type="email" name="email" placeholder="Digite seu email">
-            </div>
-            
-            <div class="input-group">
-                <label for="senha">Senha</label>
-                <input id="senha" type="password" name="senha" placeholder="Digite sua senha">
-            </div>
-           
-            <div class="input-group">
-                <label>
-                    <input id="esqueciMinhaSenha" type="checkbox"> Esqueci minha senha
-                </label>
-            </div>
-            
+        <div id="formLogin" class="container">
+            <form class="login-form">
+                <h1>Realize seu Login!</h1>
 
-            <p>Não tem uma conta? 
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email">
+                </div>
+
+                <div class="input-group">
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" name="senha" placeholder="Digite sua senha">
+                </div>
+
+                <button id="botaoEntrar" type="submit">Entrar</button>
+
+            </form>
+
+            <p>Não tem uma conta?
                 <a href="/register.html">Cadastre-se!</a>
             </p>
-
-            <button id="botaoEntrar" type="submit" >Entrar</button>
-        
-        </form>
         </div>
-        
-   
+
+
     </main>
-    
-    
+
+
     <script src="/js/login.js"></script>
 </body>
+
 </html>
